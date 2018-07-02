@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/n"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        tools:context="com.example.knbhatt.quz.MainActivity">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b"/>
+
+
+        <!-- question no 1-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/paddingtop"
+            android:textColor="@color/textcolor"
+            android:text="@string/q1"
+            android:textSize="@dimen/textsize" />
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/r1"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton"
+                android:text="@string/q1c1"
+                android:textSize="@dimen/textsize" />
+
+            <RadioButton
+                android:id="@+id/r2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton"
+                android:text="@string/q1c2"
+                android:textSize="@dimen/textsize"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"/>
+
+            <RadioButton
+                android:id="@+id/r3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton"
+                android:text="@string/q1c3"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:textSize="@dimen/textsize" />
+
+            <RadioButton
+                android:id="@+id/r4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton"
+                android:text="@string/q1c4"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:textSize="@dimen/textsize" />
+        </RadioGroup>
+
+        <!-- question no 2-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/paddingtop"
+            android:text="@string/q2"
+            android:textSize="@dimen/textsize"
+            android:textColor="@color/textcolor"/>
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/r11"
+                android:buttonTint="@color/textcolor"
+                android:textColor="@color/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton1"
+                android:text="@string/q2c1"
+                android:textSize="@dimen/textsize" />
+
+            <RadioButton
+                android:id="@+id/r21"
+                android:layout_width="wrap_content"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton1"
+                android:text="@string/q2c2"
+                android:textSize="@dimen/textsize" />
+
+            <RadioButton
+                android:id="@+id/r31"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton1"
+                android:text="@string/q2c3"
+                android:textSize="@dimen/textsize" />
+
+            <RadioButton
+                android:id="@+id/r41"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton1"
+                android:text="@string/q2c4"
+                android:textSize="@dimen/textsize" />
+        </RadioGroup>
+
+        <!-- question no 3-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/paddingtop"
+            android:text="@string/q3"
+            android:textSize="@dimen/textsize"
+            android:textColor="@color/textcolor"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/r12"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton2"
+                android:text="@string/q3c1"
+                android:textSize="@dimen/textsize" />
+
+            <RadioButton
+                android:id="@+id/r22"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton2"
+                android:text="@string/q3c2"
+                android:textSize="@dimen/textsize" />
+
+            <RadioButton
+                android:id="@+id/r32"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton2"
+                android:text="@string/q3c3"
+                android:textSize="@dimen/textsize" />
+
+            <RadioButton
+                android:id="@+id/r42"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton2"
+                android:text="@string/q3c4"
+                android:textSize="@dimen/textsize" />
+        </RadioGroup>
+
+        <!-- question no 4-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolor"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/paddingtop"
+            android:text="@string/q4"
+            android:textSize="@dimen/textsize" />
+
+        <RadioGroup
+            android:id="@+id/rg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/r13"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton3"
+                android:text="@string/q4c1"
+                android:textSize="@dimen/textsize" />
+
+            <RadioButton
+                android:id="@+id/r23"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton3"
+                android:text="@string/q4c2"
+                android:textSize="@dimen/textsize" />
+
+            <RadioButton
+                android:id="@+id/r33"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton3"
+                android:text="@string/q4c3"
+                android:textSize="@dimen/textsize" />
+
+            <RadioButton
+                android:id="@+id/r43"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Checkbutton3"
+                android:text="@string/q4c4"
+                android:textSize="@dimen/textsize" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q5"
+            android:textSize="@dimen/textsize"
+            android:textColor="@color/textcolor"/>
+
+        <CheckBox
+            android:id="@+id/c1"
+            android:textColor="@color/textcolor"
+            android:buttonTint="@color/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Checked"
+            android:text="@string/q5c1"
+            android:textSize="@dimen/textsize" />
+
+        <CheckBox
+            android:id="@+id/c2"
+            android:textColor="@color/textcolor"
+            android:buttonTint="@color/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Checked"
+            android:text="@string/q5c2"
+            android:textSize="@dimen/textsize" />
+
+        <CheckBox
+            android:id="@+id/c3"
+            android:textColor="@color/textcolor"
+            android:buttonTint="@color/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Checked"
+            android:text="@string/q5c3"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:textColor="@color/textcolor"
+            android:buttonTint="@color/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q6"
+            android:textSize="@dimen/textsize" />
+
+        <EditText
+            android:textColor="@color/textcolor"
+            android:id="@+id/e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize" />
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin"
+            android:text="@string/button" />
+    </LinearLayout>
+</ScrollView>
